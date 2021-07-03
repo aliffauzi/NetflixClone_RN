@@ -3,10 +3,10 @@ import { StyleSheet } from "react-native";
 const styles=StyleSheet.create({
     
     imageStyle:{
-        width: 110,
-        height: 170,
+        width: 130,
+        height: 190,
         resizeMode:'contain',
-        borderRadius:8,
+        borderRadius:6,
         margin: 5
     },
     headText:{
