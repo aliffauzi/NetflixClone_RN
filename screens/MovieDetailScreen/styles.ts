@@ -56,6 +56,65 @@ const styles = StyleSheet.create({
         color: '#757575',
         marginRight:10
 
+    },
+    playButton:{
+        backgroundColor:"white",
+        justifyContent:"center",
+        alignItems:"center",
+        padding: 5,
+        borderRadius:5,  
+        marginVertical:5,
+        
+    },
+    playButtonText:{
+        color: "black",
+        fontSize:16,
+        fontWeight:"bold"
+
+    },
+    downloadButton:{
+        backgroundColor:"#2b2b2b",
+        justifyContent:'center',
+        alignItems:'center',
+        padding: 5,
+        borderRadius:5,
+        marginVertical:5
+
+    },
+    downloadButtonText:{
+        color: "white",
+        fontWeight:"bold",
+        fontSize:16
+
+    },
+    plot:{
+
+        color: "white",
+        marginVertical:10
+    },
+    cast:{
+        color: "#b5a8a7"
+
+    },
+    creator:{
+        
+        color: "#b5a8a7"
+
+    },
+    iconButton:{
+        flexDirection:"row",
+        marginTop:20,
+    },
+    plus:{
+        alignItems:'center',
+        marginHorizontal:20,
+      
+
+    },
+    plusText:{
+        color: "darkgrey",
+        marginTop:3
+
     }
 
 
