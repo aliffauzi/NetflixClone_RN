@@ -22,7 +22,7 @@ export default {
             poster: 'https://www.torrentbd.net/posters/hBVO59eB4fC2JWWKZ6NQYAYY10741542.jpg',
         }, {
             id: 'movie7',
-            poster: 'https://www.torrentbd.net/posters/kxprHEQPXSXD3lZLHZrUpAYY11525644.jpg',
+            poster: 'https://www.torrentbd.net/posters/hBVO59eB4fC2JWWKZ6NQYAYY10741542.jpg',
         }, {
             id: 'movie8',
             poster: 'https://www.torrentbd.net/posters/ws50tEwC916sLs37ZXCMnAYY11809034.jpg',
