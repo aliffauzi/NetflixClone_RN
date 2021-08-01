@@ -14,6 +14,7 @@ import HomeScreen from '../screens/HomeScreen/HomeScreen';
 import MovieDetailScreen from '../screens/MovieDetailScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
 import { BottomTabParamList, HomeParamList, TabTwoParamList } from '../types';
+import { ColorSchemeName } from 'react-native';
 
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
 
@@ -23,6 +24,7 @@ export default function BottomTabNavigator() {
   return (
     <BottomTab.Navigator
       initialRouteName="Home"
+      
       tabBarOptions={{ activeTintColor: Colors[colorScheme].tint }}>
       <BottomTab.Screen
         name="Home"
